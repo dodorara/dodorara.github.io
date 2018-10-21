@@ -47,33 +47,6 @@ body {
   display: none;
 }
 
-  .cookie_4 {
-    background: url(/img/ok/cookie-4.jpg) no-repeat center center;
-    height: 250px;
-    width: 100%;
-  }
-
-  .cookie_4:hover{
-    background: url(/img/ok/cookie-44.jpg) no-repeat center center;
-  }
-  .cookie_5 {
-    background: url(/img/ok/cookie-5.jpg) no-repeat center center;
-    height: 250px;
-       width: 100%;
-  }
-
-  .cookie_5:hover{
-    background: url(/img/ok/cookie-55.jpg) no-repeat center center;
-  }
-  .cookie_6 {
-    background: url(/img/ok/cookie-6.jpg) no-repeat center center;
-    height: 250px;
-       width: 100%;
-  }
-
-  .cookie_6:hover{
-    background: url(/img/ok/cookie-66.jpg) no-repeat center center;
-  }
 
 .hover img {
     position:absolute; 
@@ -260,6 +233,7 @@ body {
       margin-top: 120px;
       font-family: "DFKai-sb";
       color: rgb(135, 116, 55);
+      position: relative;
   
   }
 
@@ -314,11 +288,17 @@ body {
 
   
  }
+ .title5{
+   margin-top: -20px;
+ }
  .card{
    margin: auto;
+   height: 396px;
+   width: 350px;
  }
  .card-body{
-  font-family: "Microsoft JhengHei";font-size: 12pt;
+  font-family: "Microsoft JhengHei";
+  font-size: 12pt;
  }
  .card-header{
    text-align: center;
@@ -326,17 +306,36 @@ body {
    font-family: "DFKai-sb";
  }
  .card-title2{
-   height: 0px;
+ }
+ .card-title{
  }
  /*.......*/
  .cookie {
    width: 100%;
    margin: auto;
-  
+   height: 850px;
    background-color:rgb(250,242,235);
  }
-
-.cookie1{ display: flex;
+ .cookie {
+  width: 100%;
+  margin: auto;
+  height: 800px;
+  background-color:rgb(250,242,235);
+}
+.cookie-2 {
+  width: 100%;
+  margin: auto;
+  height: 700px;
+  background-color:rgb(250,242,235);
+}
+.cookie-3 {
+  width: 100%;
+  margin: auto;
+  height: 650px;
+  background-color:rgb(250,242,235);
+}
+.cookie1{ 
+  display: flex;
   justify-content:center;
   position: relative;
  
