@@ -9,7 +9,7 @@ body {
     height: 4800px;
     display: block;   
     margin: 0 auto;
-	background-color: white;
+	  background-color: white;
 }
 #BackToTop {
     color: #fc3a63;
@@ -80,6 +80,8 @@ img:hover {
     text-decoration: none;
     font-family:Microsoft JhengHei;
 }
+
+
 .mobile-nav-toggle {
     display: none;
     float: right;
@@ -96,16 +98,13 @@ img:hover {
 /*---------------banner--------------*/
 .swiper-container {
     /* 設定幻燈片的寬度跟高度 */
-    width:100%;
-    height: 600px;
+    max-width:100%;
+    height: auto;
 	text-align:center;
 	margin:auto;
+
 }
-.swiper_none{
-	height: auto;
-	max-width: 100%;
-	display:none;
-}
+
 /*---------------banner--------------*/
 
 /*---------------titlelist-----------*/
@@ -435,8 +434,13 @@ img:hover {
 	position: fixed;
 	right: 50px;
 	bottom: 50px;
+	
 }
+.btnnnn{
+	background-color: rgba(135, 116, 55,0%);
+	border:0px;
 
+}
 /*-----------------------------------------------------------width: 768px-----------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
 nav .nav-items {
@@ -530,18 +534,9 @@ body {
 /*---------------navbar--------------*/
 
 /*---------------banner--------------*/
-.swiper_none{
-	display:block;
-	height: auto;
-	max-width: 100%;
-}
-.swiper_none img{
-	height: auto;
-	max-width: 100%;
-}
+
 .swiper-container {
 	/* 設定幻燈片的寬度跟高度 */
-	display: none;
 }
 /*---------------banner--------------*/
 
