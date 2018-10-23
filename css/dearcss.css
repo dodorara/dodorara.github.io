@@ -267,7 +267,7 @@ img:hover {
 .cookie-2 {
 	width: 100%;
 	margin: auto;
-	height: 700px;
+	height: 780px;
 	background-color:rgb(250,242,235);
 }
 .cookie-3 {
@@ -302,7 +302,7 @@ img:hover {
 	color: rgb(71, 61, 29);
 }
 .card-text{
-	font-size: 10pt;
+	font-size: 12pt;
 	padding:0px 50px 0 50px;
 }
 .card-title2{
@@ -338,7 +338,7 @@ img:hover {
 	margin-top: -20px;
 }
 .card-body{
-	font-family: "Microsoft JhengHei";
+	font-family: "DFKai-sb";
 	font-size: 12pt;
 }
 .card .five_text {
