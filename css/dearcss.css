@@ -276,6 +276,10 @@ img:hover {
 	height: 650px;
 	background-color:rgb(250,242,235);
 }
+/* .back{
+	width: 20%;
+	height: 20%;
+} */
 
 /*---------------product---------------*/ 
 
@@ -534,9 +538,18 @@ body {
 /*---------------navbar--------------*/
 
 /*---------------banner--------------*/
-
+.swiper_none{
+	display:block;
+	height: auto;
+	max-width: 100%;
+}
+.swiper_none img{
+	height: auto;
+	max-width: 100%;
+}
 .swiper-container {
 	/* 設定幻燈片的寬度跟高度 */
+	display: none;
 }
 /*---------------banner--------------*/
 
