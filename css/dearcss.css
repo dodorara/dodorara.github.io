@@ -11,9 +11,7 @@ body {
     margin: 0 auto;
 	  background-color: white;
 }
-#BackToTop {
-    color: #fc3a63;
-}
+
 p:hover {
 	position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
 	top: 1px;
@@ -409,7 +407,7 @@ img:hover {
 
 /*--------------bottom--------------*/
 .bottom {
-	height: 160px;
+	height: 220px;
 	background-color:rgb(249, 247, 227); 
 	color:rgb(14, 28, 51);
 	font-family: "Microsoft JhengHei";
@@ -417,7 +415,9 @@ img:hover {
 }
 .bottom2 {
 	width: 60%;
+	padding: 50px;
 	margin: auto;
+
 }
 .bottom_logo{
 	float:left;
@@ -442,7 +442,7 @@ img:hover {
 	position: fixed;
 	right: 50px;
 	bottom: 50px;
-	
+	color: #fc3a63;
 }
 .btnnnn{
 	background-color: rgba(135, 116, 55,0%);
@@ -871,7 +871,7 @@ ul.a {list-style-type:circle;}
 
 /*--------------bottom--------------*/
 .bottom {
-	height: 160px;
+	height: 220px;
 	background-color:rgb(249, 247, 227); 
 	color:rgb(14, 28, 51);
 	font-family: "Microsoft JhengHei";
@@ -881,6 +881,8 @@ ul.a {list-style-type:circle;}
 .bottom2 {
 	width: 100%;
 	margin: auto;
+	padding: 5px;
+	padding-top: 30px;
 }
 .bottom_logo{
 	float:left;
@@ -900,8 +902,9 @@ ul.a {list-style-type:circle;}
 .logo2{
 	height: 150px;
 }
-}
 #BackToTop{
 	display: none;
 }
+}
+
 /*-----------------------width: 768px-----------------------------*/
