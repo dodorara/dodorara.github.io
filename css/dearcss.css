@@ -76,23 +76,24 @@ img:hover {
 }
 .link {
     width: 50px;
-    background-color: lemonchiffon;
+    background-color:rgb(250,242,235,0%);
     text-decoration: none;
     font-family:Microsoft JhengHei;
 }
 
-
-.mobile-nav-toggle {
-    display: none;
-    float: right;
-    color: lightsalmon;
-
+/* 電腦 */
+#mobile_nav_toggle {
+	display: none;
+	float: right;
+	color: lightsalmon;
 }
-  .mobile-nav {
-    display: none;
-    float: left;
 
+.mobile-nav {
+	display: none;
+	float: left;
+	z-index:9998;
 }
+
 /*---------------navbar--------------*/
 
 /*---------------banner--------------*/
@@ -103,6 +104,9 @@ img:hover {
 	text-align:center;
 	margin:auto;
 
+}
+.swiper_none{
+	display: none;
 }
 
 /*---------------banner--------------*/
@@ -450,9 +454,18 @@ img:hover {
 nav .nav-items {
 	display:block;
 }
-.mobile-nav {
+ .mobile-nav {
 	display:none;
+	z-index:9998;
+  background-color:rgba(250,242,235,80%);
+	width: 100%;
+	
+} 
+.mobile-nav.show {
+	display: block;
+
 }
+
 body {
     margin: 0;
     padding-top: 90px;
@@ -516,6 +529,10 @@ body {
     align-items: center;
     max-width: 1200px;
 }
+
+
+
+
 .nav {
     background-color: white;
     margin: 0;
@@ -524,14 +541,23 @@ body {
 }
 .link {
     width: 50px;
-    background-color: lemonchiffon;
+		background-color:rgb(250,242,235,0%);
     text-decoration: none;
-    font-family:Microsoft JhengHei;
+		font-family:Microsoft JhengHei;
+		
 }
-.mobile-nav-toggle {
+ul.a {list-style-type:circle;}
+/* 手機版 */
+#mobile_nav_toggle {
     display: block;
     float: right;
-    color: lightsalmon;
+		color: lightsalmon;
+		
+	
+}
+
+.hidden_menu {
+	margin-top: 8%;
 
 }
 
@@ -874,5 +900,8 @@ body {
 .logo2{
 	height: 150px;
 }
+}
+#BackToTop{
+	display: none;
 }
 /*-----------------------width: 768px-----------------------------*/
