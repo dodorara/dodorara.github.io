@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+<title>小鹿斑比DearDeer</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -17,7 +18,7 @@
     <div class="container">
         <div class="navbar">
             <div class=nav-items>
-                <button class="btnnnn" onclick="scrollToTop(1000);"><img class="logo" src="./img/ok/logo2-03.png" alt="logo"></button>
+                <a class="btnnnn" onclick="scrollToTop(1000);"><img class="logo" src="./img/ok/logo2-03.png" alt="logo"></a>
                 <div class=nav-items-a>
                     <a class="link" href="#title01">認識小鹿斑比</a>
                     <a class="link" href="#title02">美味櫥窗</a>
@@ -29,12 +30,13 @@
                 <a class="link" href="https://www.facebook.com/%E5%B0%8F%E9%B9%BF%E6%96%91%E6%AF%94Dear-deer%E7%B3%96%E9%9C%9C%E9%A4%85%E4%B9%BE%E6%85%B6%E7%94%9F%E9%A4%85%E4%B9%BE%E6%94%B6%E6%B6%8E%E9%A4%85%E4%B9%BE%E5%A9%9A%E7%A6%AE%E5%B0%8F%E7%89%A9%E5%BD%8C%E6%9C%88%E9%A6%AC%E5%8D%A1%E9%BE%8D-665019663633451/"target="_blank"><img src="./img/ok/fb.png" alt="fb" width="30"></a>
             </div>
             <div id="mobile_nav_toggle" class="mobile_nav_toggle">
-				<button class="btnnnn" onclick="scrollToTop(1000);"><img class="logo" src="./img/ok/logo2-03.png" alt="logo"></button>
-              <i id="mobile_nav_toggle" class="hidden_menu fas fa-align-justify fa-3x"></i>
+				<a class="btnnnn01" onclick="scrollToTop(1000);"><img class="logo" src="./img/ok/logo2-03.png" alt="logo"></a>
+				<i id="mobile_nav_toggle1" class="hidden_menu fas fa-align-justify fa-3x"></i>
             </div>
+			
         </div>
         <div class="mobile-nav">
-            <ul class="a">
+            <ul class="a_down_menu">
                 <li><a class="link" href="#title01">認識小鹿斑比</a></li>
                 <li><a class="link" href="#title02">美味櫥窗</a></li>
                 <li><a class="link" href="#title03">彌月禮盒</a></li>
@@ -338,7 +340,7 @@
 			</div>
         </div> 
     </div>
-    <button id="BackToTop" onclick="scrollToTop(1000);"> <i class="fas fa-arrow-circle-up fa-3x"></i></button>
+    <a id="BackToTop" onclick="scrollToTop(1000);"> <i class="fas fa-arrow-circle-up fa-3x"></i></a>
      
     <!-- <img class="back" src="./img/ok/Rj4Z.gif" alt=""> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
@@ -429,7 +431,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-    var mobile_navbar = document.querySelector('#mobile_nav_toggle');
+    var mobile_navbar = document.querySelector('#mobile_nav_toggle1');
     mobile_navbar.onclick = function () {
         document.querySelector('.mobile-nav').classList.toggle('show');
 
